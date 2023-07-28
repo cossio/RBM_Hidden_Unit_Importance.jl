@@ -59,6 +59,10 @@ $$
 -E^{\text{eff}}(\mathbf{v}) = -E^{\text{eff}}_{\backslash\lambda}(\mathbf{v}) + \ln \sum_{h_{\lambda}} e^{ -\mathcal{U}_{\lambda}(h_{\lambda}) + \sum_{i} w_{i\lambda}v_{i}h_{\lambda} }
 $$
 
+## Installation
+
+Registered at https://github.com/cossio/CossioJuliaRegistry.
+
 ## Usage
 
 ```julia

@@ -1,8 +1,12 @@
+import Random
+
 using Test: @test
 using RBM_Hidden_Unit_Importance: log_partition_contributions
 using RestrictedBoltzmannMachines: RBM, Binary, sample_v_from_v, log_partition
 
-rbm = RBM(Binary((4,)), Binary((2,)), randn(4,2))
+Random.seed!(1234)
+
+rbm = RBM(Binary((3,)), Binary((2,)), randn(3,2))
 rbm1 = RBM(rbm.visible, Binary(; θ = rbm.hidden.θ[2:2]), rbm.w[:, 2:2])
 rbm2 = RBM(rbm.visible, Binary(; θ = rbm.hidden.θ[1:1]), rbm.w[:, 1:1])
 

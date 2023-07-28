@@ -1,6 +1,1 @@
-using RBM_Hidden_Unit_Importance
-using Test
-
-@testset "RBM_Hidden_Unit_Importance.jl" begin
-    # Write your tests here.
-end
+module log_partition_tests include("log_partition.jl") end

@@ -1,7 +1,7 @@
 name = "RBM_Hidden_Unit_Importance"
 uuid = "18c5b9ad-20a6-4587-bcd1-d3f661342d19"
 authors = ["JFdCD <j.cossio.diaz@gmail.com>"]
-version = "1.0.2"
+version = "1.0.3"
 
 [deps]
 LogStatFunctions = "1b3c2205-da69-4893-b2df-717075b12251"

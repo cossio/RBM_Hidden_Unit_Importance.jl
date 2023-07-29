@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file. The format 
 
 ## Unreleased
 
+## v1.0.3
+
+- No changes. Testing script to register and tag packages.
+
 ## v1.0.2
 
 - No changes. Testing script to register and tag packages.

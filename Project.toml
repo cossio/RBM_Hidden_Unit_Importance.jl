@@ -1,7 +1,7 @@
 name = "RBM_Hidden_Unit_Importance"
 uuid = "18c5b9ad-20a6-4587-bcd1-d3f661342d19"
 authors = ["JFdCD <j.cossio.diaz@gmail.com>"]
-version = "2.0.0"
+version = "2.0.1-DEV"
 
 [deps]
 LogExpFunctions = "2ab3a3ac-af41-5b50-aa03-7779005ae688"

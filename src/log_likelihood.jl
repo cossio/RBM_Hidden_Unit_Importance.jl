@@ -1,8 +1,7 @@
 """
     log_likelihood_contributions(rbm; nsamples=1000, nsteps=1000, ΔlogZ=nothing)
 
-Estimates contribution of each hidden unit to the log-likelihood of `data`
-in the `rbm`.
+Estimates contribution of each hidden unit to the log-likelihood of `data` in the `rbm`.
 """
 function log_likelihood_contributions(rbm::RBM, data::AbstractArray; nsamples::Int=1000, nsteps::Int=1000, ΔlogZ=nothing)
     if isnothing(ΔlogZ)

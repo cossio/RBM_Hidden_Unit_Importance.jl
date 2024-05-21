@@ -1,9 +1,11 @@
 import Random
-
 using Test: @test
 using Random: bitrand
 using RBM_Hidden_Unit_Importance: log_likelihood_contributions
-using RestrictedBoltzmannMachines: RBM, Binary, sample_v_from_v, log_likelihood
+using RestrictedBoltzmannMachines: RBM
+using RestrictedBoltzmannMachines: Binary
+using RestrictedBoltzmannMachines: sample_v_from_v
+using RestrictedBoltzmannMachines: log_likelihood
 
 Random.seed!(1234)
 

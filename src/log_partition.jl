@@ -3,8 +3,8 @@
 
 Estimates contribution of each hidden unit to the partition function
 in the `rbm` by importance sampling. The parameters `nsamples` and `nsteps`
-control the sampling protocol. Returns `log(Zλ) - log(Z)` for each hidden unit `λ`,
-where `Zλ` is the partition function with hidden unit λ removed.
+control the sampling protocol. Returns `log(Zμ) - log(Z)` for each hidden unit `μ`,
+where `Zμ` is the partition function with hidden unit λ removed.
 """
 function log_partition_contributions(rbm::RBM; nsamples::Int=1000, nsteps::Int=1000)
     v = sample_from_inputs(rbm.visible, zeros(size(rbm.visible)..., nsamples))
